@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(185, 204, 236);
+    font-family: "Times New Roman", Times, serif;
+}
+
+h1{
+    font-family:'Courier New', Courier, "Times New Roman"
+}
+
+a{
+    color:#000;
+    font-size: 22px;
+    padding: 24px;
+    font-family:Georgia, "Times New Roman", Times, serif
+}
+
+img {
+    width: 500px;
+}
