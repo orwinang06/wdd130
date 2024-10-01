@@ -6,7 +6,7 @@ body {
 h1{
     font-family:'Courier New', Courier, "Times New Roman"
 }
-
+/*#active* active id to tell what page on .gray for class to make grayid needs #, class needs.*/
 a{
     color:#000;
     font-size: 22px;
