@@ -1,0 +1,16 @@
+body{
+    background-color:rgb(33, 134, 192)
+}
+h1{
+    text-align: center;
+    color:white
+
+}
+h1:hover{
+    color:black
+}
+img{
+    width:20%;
+    margin: 0 auto;
+    display: block;
+}
