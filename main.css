@@ -3,8 +3,19 @@ body {
     font-family: "Times New Roman", Times, serif;
 }
 
+nav {
+    text-align: center;
+    background-color: aliceblue;
+    padding:26px
+
+
+}
+
 h1{
+    text-align: center;
     font-family:'Courier New', Courier, "Times New Roman"
+
+    
 }
 /*#active* active id to tell what page on .gray for class to make grayid needs #, class needs.*/
 a{
@@ -14,6 +25,21 @@ a{
     font-family:Georgia, "Times New Roman", Times, serif
 }
 
+p{
+ font-size: 20px;
+
+}
+
 img {
     width: 500px;
+    margin: 0 auto;
+    display: block;
+}
+
+footer {
+    text-align: center;
+    color:cornflowerblue;
+    background-color: aliceblue;
+    padding:20px
+
 }
