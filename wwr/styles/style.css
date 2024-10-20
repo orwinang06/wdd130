@@ -15,7 +15,7 @@ body {
 }
 
 header {
-    font-family:"Merienda", "Times New Roman";
+    font-family:"Merienda", "Times New Roman" sans-serif;
     color:#ffffff;
     background-color: #913974;
 }
