@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
 body {
+    font-family: "Times New Roman", Helvetica, sans-serif;
     color: #000000;
     background-color: #ffffff;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 #content {
@@ -9,6 +15,7 @@ body {
 }
 
 header {
+    font-family:"Merienda", "Times New Roman";
     color:#ffffff;
     background-color: #913974;
 }
@@ -17,11 +24,16 @@ header {
     width:80px
 }
 
+#logo-link {
+    padding-top: 5px;
+}
+
 nav a {
     text-decoration: none;
     text-align: center;
     color:#ffffff ;
     background-color: #913974;
+    padding: 35px
 }
 
 nav a:hover{
@@ -48,7 +60,10 @@ nav a:hover{
     text-decoration: none;
     color:#ffffff;
     background-color: #913974;
-    
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 
 }
 
@@ -64,27 +79,51 @@ main section {
 
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 .home-title {
-    color:#000000
+    font-family: "Merienda", "Times New Roman";
+    color:#000000;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
     color:#000000
 }
 
+h2 {
+    margin: 0;
+}
+
+.card-img {
+    border: 10px solid #913974
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0px;
+}
+
 .mgs {
     color: #000000;
     background-color: #ffffff;
+    padding: 35px;
 }
 .msg h2{
+    font-family: "Merienda", "Times New Roman";
     color: #000000;
 }
 .msg p {
     color:#000000;
+    font-size: .8em;
+    padding-bottom: 15px;
  }
 
 .icon {
-    width:80px
+    width:80px;
+    padding: 10px;
 }
 
 #background {
@@ -95,11 +134,17 @@ h4 {
 footer {
     color: #ffffff;
     background-color: #913974;
+    padding:25px 50px;
+    margin-top:200px
 }
 
 footer a{
     text-decoration: none;
     color: #ffffff;
+}
+
+footer.social img {
+    padding-top: 15px;
 }
 
 footer p a:hover{
