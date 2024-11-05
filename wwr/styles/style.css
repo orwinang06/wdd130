@@ -136,7 +136,7 @@ main section img {
 }
 
 .rivers-card{
-    grid-column: 2/4;
+    grid-column: 8/10;
     grid-row: 2/3;
 }
 
@@ -147,7 +147,7 @@ main section img {
 }
 
 .rapids-card{
-    grid-column: 8/10;
+    grid-column: 2/4;
     grid-row: 2/3;
 }
 
