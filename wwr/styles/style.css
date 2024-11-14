@@ -141,13 +141,13 @@ main section img {
 }
 
 .camping-card{
-    grid-column: 5/7;
+    grid-column: 2/4;
     grid-row: 2/3;
 
 }
 
 .rapids-card{
-    grid-column: 2/4;
+    grid-column: 5/7;
     grid-row: 2/3;
 }
 
@@ -239,6 +239,40 @@ footer p a:hover{
 footer p {
     font-size: 1.2em;
 }
+
+#blog-grid{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+h1{
+    grid-column: 7/9;
+}
+
+
+#welc{
+    grid-column: 6/10;
+}
+
+
+.post1{
+    background-color:#3181b5;
+    color: #f9c9af;
+    grid-column: 2/12;
+
+}
+
+.post2{
+    background-color: #3181b5;
+    color: #f9c9af;
+}
+
+.post3{
+    background-color: #3181b5;
+    color: #f9c9af;
+}
+
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {

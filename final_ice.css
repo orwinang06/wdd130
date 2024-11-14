@@ -1,0 +1,29 @@
+header{
+    margin: 0 auto;
+}
+
+body{
+    margin:0 auto;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: steelblue;
+    color: white;
+}
+
+.reader{
+    grid-column: 1/2;
+    justify-items: center;
+}
+
+.view{
+    grid-column: 2/3;
+    justify-items: center;
+}
+
+.comments{
+    grid-column: 3/4;
+    justify-items: center;
+}
