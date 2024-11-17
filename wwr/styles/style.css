@@ -242,34 +242,42 @@ footer p {
 
 #blog-grid{
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: repeat(13, 1fr);
 }
 
 h1{
-    grid-column: 7/9;
+    grid-column: 6/9;
 }
 
 
 #welc{
-    grid-column: 6/10;
+    grid-column: 5/10;
 }
-
 
 .post1{
     background-color:#3181b5;
     color: #f9c9af;
-    grid-column: 2/12;
+}
+
+#im1{
+    grid-column: 3/5;
 
 }
 
 .post2{
     background-color: #3181b5;
     color: #f9c9af;
+    grid-column: 7/13;
+}
+
+#im2{
+    grid-column: 2/6;
 }
 
 .post3{
     background-color: #3181b5;
     color: #f9c9af;
+    grid-column: 2/13;
 }
 
 
