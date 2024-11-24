@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(185, 204, 236);
+    background-color: #b9ccec;
     font-family: "Times New Roman", Times, serif;
     margin: 0;
     padding: 0;
@@ -7,8 +7,12 @@ body {
 
 nav {
     text-align: center;
-    background-color: aliceblue;
+    background-color: #a4b9dd;
     padding:26px
+}
+
+nav :hover{
+    color:aliceblue
 }
 
 h1{
@@ -44,8 +48,8 @@ img {
 
 footer {
     text-align: center;
-    color:cornflowerblue;
-    background-color: aliceblue;
+    color:#000;
+    background-color: #a4b9dd;
     padding:20px
 
 }
