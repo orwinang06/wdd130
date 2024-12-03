@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Special+Elite&display=swap');
+
+
+body {
+    font-family:"Playfair Display", "Times New Roman", Helvetica, sans-serif;
+    color: #90ba6b;
+    background-color: #ffffff;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+header {
+    font-family:"Special Elite", "Times New Roman", Helvetica;
+    color:#90ba6b;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+.logo{
+    width: 80px;
+}
+
+#logo-link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+nav{
+    display: flex;
+    justify-content: stretch;
+    background-color: #90ba6b;
+}
+
+nav a {
+    text-decoration: none;
+    text-align: center;
+    color:#ffffff; ;
+    background-color: #90ba6b;
+    padding: 40px;
+    width: 25%;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    background-color: #edd2ce ;
+    color: #000000;
+}
+
+#homepage_main{
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+}
+
+#main_logo{
+    box-sizing: border-box;
+    grid-column:4/7;
+    align-content: center;
+}
+
+#welcome_para{
+    grid-column: 2/9;
+}
+
+#space{
+    height:400px;
+    background-color: #ffffff;
+    grid-column: 1/10;
+}
+
+#about{
+    height: 500px;
+    background-color: #edd2ce;
+    color: #000000;
+    grid-row: 5/9;
+    grid-column: 1/10;
+
+}
+
+h1{
+    font-family:"Special Elite", "Times New Roman", Helvetica;
+}
+
+.title{
+    color: #000000;
+    grid-column: 5/7;
+    grid-row: 5;
+
+}
+
+#me{
+    grid-row: 6;
+    grid-column: 2/3;
+}
+
+#about_para{
+    color: #000000;
+    grid-row: 6/7;
+    grid-column: 4/9;
+}
+
+
+
+footer {
+    color: #ffffff;
+    background-color: #90ba6b;
+    padding:25px 50px;
+    margin-top:200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+footer p a:hover{
+    text-decoration: underline;
+    color:#f9c9af
+
+}
+
+footer p {
+    font-size: 1.2em;
+}
