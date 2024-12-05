@@ -5,6 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Shelf</title>
     <link rel="stylesheet" href="styles/style.css">
+    <style>
+        .container {
+          position: relative;
+          width: 50%;
+        }
+        
+        .image {
+          display: block;
+          width: 100%;
+          height: auto;
+        }
+        
+        .overlay {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          height: 100%;
+          width: 100%;
+          opacity: 0;
+          transition: .5s ease;
+          background-color: #edd2ce;
+        }
+        
+        .container:hover .overlay {
+          opacity: 1;
+        }
+        
+        .text {
+          color: #000000;
+          font-size: 20px;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          text-align: center;
+        }
+</style>
 </head>
 <body>
     <div id="content">
@@ -19,20 +60,24 @@
                 <a href="cheat_sheet.html">The Cheat Sheet</a>
             </nav>
         </header>
-        <div class="main pg2">
-            <img src="images/rsz_3royal_target_cover.jpg" alt="Royal Target Cover">
-            <h1>Royal Target by Traci Hunter Abrams</h1>
-            <h3>Summary</h3>
-            <p></p>
-            <h3>Review</h3>
-            <p></p>
-            <h3>Age Rating:15-16+</h3>
-            <p>I would say this book is better fit for older teenagers as firstly the main characters are both adults post college education. This book is clean as there is no swearing or dirty scenes, so if could be shared with a little more youthful audience. However, part of the plot deals with conversion to the Church of Jesus Christ of Latter-Day Saints, how non-member family may handle it and CIA work including bombs, threats, death threats, weapons, secret keeping, and lying. Those topics may be better suited for readers closer to 15 or 16 would could better handle both of those topics and adventure.</p>
-                <div class="tags">
-                    <p>Romance</p>
-                    <p>Action</p>
-                    <p>LDS Fiction</p>
+        <div class="main_pg2">
+            <div class="container">
+                <img src="images/rsz_3royal_target_cover.jpg" alt="Royal Target Cover" class="image">
+                <div class="overlay">
+                  <div class="text">You can fnd this book at locations such as Desseret Book, Seagul Book, and Amazon.</div>
                 </div>
+              </div>
+            <!-- <img id=book2img src="images/rsz_3royal_target_cover.jpg" alt="Royal Target Cover"> -->
+            <h1 id="title1">Royal Target by Traci Hunter Abrams</h1>
+            <h3 id="sum1">Summary</h3>
+            <p id="sum_para1">Janessa Rogers is a CIA agent. AS the us is building an embassy in the small country of Meridia. When she is called to help and meet the royal family, she is expecting to use her acquired skills and protect, not play fake fiancée to the second born Prince of the country, Garret Fortier. Neither expect to fall in love during this fake proposal, it was supposed to be extra security and someone on the inside. How can they deal with threats, society and social pressure, their faith, their families, their professional lives, and placing their loyalty as they fall in love.</p>
+            <h3 id="rev1">Review</h3>
+            <p id="rev1_para">I personally really liked this book. I think the action and adventure is fun and exciting. I know not everyone would feel the same way as religion, specifically the Church of Jesus Christ of Latter-Day Saints does play an important role in the book and both of the main characters are members of their faith with Janessa being a member for longer and Garret being converted and baptized while he attended college outside of his home country of Meridia. I feel that they do portray the religion pretty well, but that if someone is really sensitive about religion and wouldn’t like it to be a key part of the book, then this book may not be the right book for that person. It can be cheese and predictable at times, but I can enjoy that and have fun with it, and it has a few twists. This isn’t really a think and ponder deeply book, but rather for me, it is a fun and easy read.</p>
+            <h3 id="rate1">Age Rating:15-16+</h3>
+            <p id="rate1para">I would say this book is better fit for older teenagers as firstly the main characters are both adults post college education. This book is clean as there is no swearing or dirty scenes, so if could be shared with a little more youthful audience. However, part of the plot deals with conversion to the Church of Jesus Christ of Latter-Day Saints, how non-member family may handle it and CIA work including bombs, threats, death threats, weapons, secret keeping, and lying. Those topics may be better suited for readers closer to 15 or 16 would could better handle both of those topics and adventure.</p>
+            <p id="t1">Romance</p>
+            <p id="t2">Action</p>
+            <p id="t3">LDS Fiction</p>
         </div>
 </body>
 <footer>
