@@ -5,6 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Shelf</title>
     <link rel="stylesheet" href="styles/style.css">
+    <style>
+        .container {
+          position: relative;
+          width: 50%;
+        }
+        
+        .image {
+          display: block;
+          width: 100%;
+          height: auto;
+        }
+        
+        .overlay {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          height: 100%;
+          width: 100%;
+          opacity: 0;
+          transition: .5s ease;
+          background-color: #edd2ce;
+        }
+        
+        .container:hover .overlay {
+          opacity: 1;
+        }
+        
+        .text {
+          color: #000000;
+          font-size: 20px;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          text-align: center;
+        }
+</style>
 </head>
 <body>
     <div id="content">
@@ -19,18 +60,23 @@
                 <a href="cheat_sheet.html">The Cheat Sheet</a>
             </nav>
         </header>
-        <div class="main pg3">
-            <img src="images/rsz_1cruel_prince_cover.jpg" alt="The Cruel Prince Cover">
+        <div class="main_pg3">
+            <div class="container">
+                <img src="images/rsz_1cruel_prince_cover.jpg" alt="The Cruel Prince Cover" class="image">
+                <div class="overlay">
+                  <div class="text">You can fnd this book at locations such as Barnes and Noble and Amazon. This title can likely also be found at local books stores and libraies.</div>
+                </div>
+              </div>
             <h1 id="title2">The Cruel Prince by Holly Black</h1>
             <h3 id="sum2">Summary:</h3>
-            <p id="sum_para2"></pid>>Living in Faerie is never easy, especially not as a human. Jude Duarte began her life in this magical land at age 7 after the tragic death of her parents. She is raised aside her twin sister Taryn, older sister Viviene, and younger brother Oak. Raise by her older sister’s father, a redcap named Madoc, she has mastered and learned to fight. She seeks to find her way and her own place in Faerie, despite the way she is treated as a human. She must defy those around her to seek what she desires and find her place. She must use careful strategy to survive and come out of this adventure alive and on top, even if it means dealing with her enemies, those who mocked and hurt her.</p>
+            <p id="sum_para2">Living in Faerie is never easy, especially not as a human. Jude Duarte began her life in this magical land at age 7 after the tragic death of her parents. She is raised aside her twin sister Taryn, older sister Viviene, and younger brother Oak. Raise by her older sister’s father, a redcap named Madoc, she has mastered and learned to fight. She seeks to find her way and her own place in Faerie, despite the way she is treated as a human. She must defy those around her to seek what she desires and find her place. She must use careful strategy to survive and come out of this adventure alive and on top, even if it means dealing with her enemies, those who mocked and hurt her.</p>
             <h3 id="rev2">Review:</h3>
             <p id="rev2_para">I personally really loved and enjoyed this book. I loved seeing the way different characters handled problems, even the same problem. I think the main plot, of kind of this political agenda and warfare that emerges with other challenges makes it a really fun book to sit and enjoy. The romance plot is underneath the rest of the plot and really develops over this book and the next two in the series. This is the first book of  a three-book series so you’re in for an adventure. There are also a few connected books like a duology set several years later with some of the other side characters years later. There is also a book on one of the side characters called “How the King of Elfhame Learned to Hate Stories” that can be read after this series. I personally feel like this first book doesn’t end on a cliff hanger which is nice. If you want a fun adventure and to be able to think through an interesting plot of secrets, lies and deception, on a less intense than a major thriller or mystery level, then this might be a great book for you. </p>
             <h3 id="rate2">Age Rating:13+</h3>
             <p id="rate2para">This book can at times be rather violent. They live in a land where people often seek power. Madoc is a redcap, who can be violent and blood-seeking creatures. There is a joke that all the Holly Black girls have to had trauma and a rough life, and the Duarte sisters definitely have this. It can be a fun book if you like a different plot with a romance subplot. I feel like the main plot is more of that of the politics of this Faerie land and can remind me of the dystopian novels many also read and enjoy around 13 and this level. Specifically in terms of the violence and content of the first book I feel like it can be similar to the Divergent and The Maze Runner books.</p>
-            <p id="t4">Fantasy</p>
+            <p id="t4">Fantasy Land</p>
             <p id="t5">Romance Sub-Plot</p>
-            <p id="t6">Adventure</p>
+            <p id="t6">Action & Adventure</p>
         </div>
     </div>
 </body>

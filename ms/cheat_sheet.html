@@ -5,6 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Shelf</title>
     <link rel="stylesheet" href="styles/style.css">
+    <style>
+        .container {
+          position: relative;
+          width: 50%;
+        }
+        
+        .image {
+          display: block;
+          width: 100%;
+          height: auto;
+        }
+        
+        .overlay {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          height: 100%;
+          width: 100%;
+          opacity: 0;
+          transition: .5s ease;
+          background-color: #edd2ce;
+        }
+        
+        .container:hover .overlay {
+          opacity: 1;
+        }
+        
+        .text {
+          color: #000000;
+          font-size: 20px;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          text-align: center;
+        }
+</style>
 </head>
 <body>
     <div id="content">
@@ -20,7 +61,11 @@
             </nav>
         </header>
         <div class="main pg4">
-            <img src="images/rsz_the_cheat_sheet_cover.jpg" alt="The Cheat Sheet Cover">
+            <div class="container">
+                <img src="images/rsz_the_cheat_sheet_cover.jpg" alt="The Cheat Sheet Cover" class="image">
+                <div class="overlay">
+                  <div class="text">You can fnd this book at locations such as Barnes and Noble and Amazon. This title can likely also be found at local books stores.</div>
+                </div>
             <h1>The Cheat Sheet by Sarah Adams</h1>
             <h3>Summary</h3>
             <p></p>
