@@ -71,7 +71,7 @@ nav a:hover{
 }
 
 #space{
-    height:400px;
+    height:300px;
     background-color: #ffffff;
     grid-column: 1/10;
 }
@@ -108,7 +108,7 @@ h1{
 }
 
 #space2{
-    height:200px;
+    height:150px;
     background-color: #ffffff;
     grid-column: 1/10;
     grid-row: 9;
